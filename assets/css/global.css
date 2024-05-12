@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    font-family : 'Montserrat' !important;
+}
+
+.fa-solid, .fa-regular{
+    font-family : "Font Awesome 6 Free" !important;
+}
+
+::placeholder{
+    opacity : .5 !important;
+    letter-spacing : 0 !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance : none !important;
+    margin : 0 !important;
+}
